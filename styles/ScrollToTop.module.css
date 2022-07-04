@@ -1,0 +1,30 @@
+.icon{
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  color: #5CDB95;
+  cursor: pointer;
+  animation: btnAnimation 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+  position: fixed;
+  right: 2%;
+  z-index: 20;
+}
+
+@keyframes btnAnimation {
+  0%{
+    transform: translateY(-15px);
+  }
+  25%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  75%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-15px);
+  }
+}

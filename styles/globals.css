@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../public/fonts/MontserratAlternates-ExtraBold.ttf");
+  font-family: "Open Sans";
+  src: url("../public/fonts/OpenSans-SemiBold.ttf");
+}
+
+h1 {
+  font-family: "Montserrat Alternates";
+}
+
+body,
+button,
+input {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px transparent;
+}
+
+button:hover {
+  background-color: transparent;
+  transition: all 0.3s;
+  border: 1px solid #5cdb95;
+  color: #edf5e1;
+}
+
+Link {
+  cursor: pointer;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

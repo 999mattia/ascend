@@ -1,0 +1,24 @@
+.container{
+    background-color: #363739;
+    color: #EDF5E1; 
+    padding-top: 1rem;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding: 2rem; 
+}
+
+@media screen and (max-width: 1200px) {
+    .contentContainer {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8em;
+    }
+  }
+
+
+
+

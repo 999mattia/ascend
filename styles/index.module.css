@@ -1,0 +1,58 @@
+.homeImg {
+    opacity: 0.5;
+}
+
+.container{
+    background-color: #363739;
+    color: #EDF5E1;
+}
+
+.titleOnImage{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-size: max(5.5vw, 2.5rem);
+    z-index: 4;
+}
+
+.subTitle{
+    padding: 5rem;
+}
+
+
+
+
+.containerProducts {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-bottom: 7em;
+}
+
+@media screen and (max-width: 800px){
+    .titleOnImage{
+        top: 10%;
+    }
+    .containerProducts{
+        margin-left: 1em;
+        margin-right: 1em;
+        gap: 1em;
+        justify-content: space-around;
+    }
+    .subTitle{
+        font-size: 5vw;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .containerProducts{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+}

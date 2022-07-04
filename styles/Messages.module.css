@@ -1,0 +1,40 @@
+.message{
+    border: 2px solid #212529;
+    border-radius: 4px;
+    padding: 1em;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.nameAndDate{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    border-bottom: 1px solid #212529;
+}
+
+.messages {
+    overflow-y: scroll;
+    height: 45rem;
+}
+
+.messages::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    border: 2px solid #5CDB95;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+.title {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+      width: 80%;
+    }
+  }

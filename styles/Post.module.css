@@ -1,0 +1,48 @@
+.container {
+  text-align: center;
+}
+
+.img {
+  height: auto;
+  width: 20vw;
+}
+
+.productName {
+  font-size: 1.7em;
+  width: 20vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 1120px) {
+  .productName {
+    font-size: 1.2em;
+    width: 35vw;
+  }
+  .price {
+    font-size: 1em;
+  }
+  .img {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img {
+    width: 40vw;
+  }
+  .productName {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .productName {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,92 @@
+.container{
+    background-color: #363739;
+    color: #EDF5E1;
+    font-family: "Open Sans";
+}
+
+.productContainer{
+    width: 80%;
+}
+
+.shoeName{
+    width: 100%;
+    text-align: left;
+    padding-top: 0.5em;
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+.price{
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.7em;
+}
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5em;
+}
+
+.button {
+    background-color: #5CDB95;
+    color: #EDF5E1;
+    border: none;
+    text-align: center;
+    font-size: 1.2em;
+    width: 50%;
+    border-radius: 6px;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.button:disabled{
+    color: #EDF5E1;
+    background-color: grey;
+    border: none;
+    cursor: default;
+}
+
+
+.inStockText{
+    width: 50%;
+    color: #EDF5E1;
+    padding-top: 0.6em;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.icon{
+    width: 25px; 
+    height: 25px;
+    margin-left: 0.1em;
+}
+
+@media screen and (max-width: 950px) {
+    .shoeName{
+        font-size: 5vw;
+    }
+    .price{
+        font-size: 4vw;
+        padding-top: 0.3em
+    }
+    .buttonContainer{
+        gap: 0.5em;
+    }
+    .button{
+        font-size: 4vw;
+    }
+    .inStockText{
+        font-size: 4vw;
+    }
+    .icon{
+        font-size: 4vw;
+    }
+
+    
+}
