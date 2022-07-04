@@ -24,16 +24,16 @@ export default function Header() {
     <div>
       <div className={styles.headerContainer}>
         <div className={styles.left}>
-          <Link href={`http://localhost:3000/products`} passHref>
+          <Link href={`/products`} passHref>
             <p className={styles.headerLink}>Products</p>
           </Link>
-          <Link href={`http://localhost:3000/products/nike`} passHref>
+          <Link href={`/products/nike`} passHref>
             <p className={styles.headerLink}>Nike</p>
           </Link>
-          <Link href={`http://localhost:3000/products/jordan`} passHref>
+          <Link href={`/products/jordan`} passHref>
             <p className={styles.headerLink}>Air Jordan</p>
           </Link>
-          <Link href={`http://localhost:3000/products/adidas`} passHref>
+          <Link href={`/products/adidas`} passHref>
             <p className={styles.headerLink}>Adidas</p>
           </Link>
 
